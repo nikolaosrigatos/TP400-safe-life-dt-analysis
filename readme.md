@@ -8,6 +8,8 @@ A deterministic crack-growth analysis is then performed using the mission stress
 
 Task 3 involves a probabilistic damage-tolerance assessment. Starting from the anomalies distribution for circular holes given in AC 33-70.2, a probabilistic analysis is performed considering the presence of eight holes on each of the four shafts and applying a weakest-link approach. Finally, a Monte Carlo–based inspection plan is generated following the scheme proposed in AC 33-70.2 (Figure A7-6).
 
+The contents of each folder are described below:
+
 - Code contains all the MATLAB files
   - FAD_config1.m calculates the Failure Assessment Diagram (FAD) for configuration one (shown in TP400_Nikolaos_Rigatos.pdf, slide 18)
   - FAD_config2.m calculates the Failure Assessment Diagram (FAD) for configuration two (shown in TP400_Nikolaos_Rigatos.pdf, slide 18)
