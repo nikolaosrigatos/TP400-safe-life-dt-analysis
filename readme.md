@@ -1,23 +1,22 @@
-- Code has all the MATLAB files
-   - FAD_config1.m calculates the Failure Assessment Diagram (FAD) for configuration one (shown in TP400_Nikolaos_rigatos.pdf slide 18)
-   - FAD_config2.m calculates the Failure Assessment Diagram (FAD) for configuration two (shown in TP400_Nikolaos_rigatos.pdf slide 18)
-   - MC_inspection_plan.m does a Monte Carlo (MC) analysis in order to produce a probabilistic inspection plan
-   - PND_MC.m and PND_calc.m calculates the Probability of Non Detection (PND) for the MC analysis and the deterministic damage tolerance analysis
-   - TP400.m is the main file which runs all the functions
-   - damage_calc.m runs a top of the scatter life calculation approach
-   - inspection_plan_profile1.m calculates the required inspections required for a PND of less than 2e-5
-   - interpolate_curves.m interpolates the crack vs cycles graphs extracted from NASGRO
-   - loglik_3par_norm_runouts calculates the loglik function for the S-N curv e
-   - prob_assessment.m does a probabilistic approach of the top of the scatter
-   - prob_damage_tol.m does the probabilistic damage tolerance analysis for a probability of exceedance of 2e-5
-   - write_SF_files.m writes the NASGRO files required for the deterministic damage tolerance analysis
-
-- Fatigue Data contains the excel files for the S-N curve
+- Code contains all the MATLAB files
+ - FAD_config1.m calculates the Failure Assessment Diagram (FAD) for configuration one (shown in TP400_Nikolaos_Rigatos.pdf, slide 18)
+ - FAD_config2.m calculates the Failure Assessment Diagram (FAD) for configuration two (shown in TP400_Nikolaos_Rigatos.pdf, slide 18)
+ - MC_inspection_plan.m performs a Monte Carlo (MC) analysis to produce a probabilistic inspection plan
+ - PND_MC.m and PND_calc.m calculate the Probability of Non-Detection (PND) for the MC analysis and the deterministic damage-tolerance analysis
+ - TP400.m is the main file that runs all functions
+ - damage_calc.m performs a top-of-the-scatter life calculation
+ - inspection_plan_profile1.m calculates the inspections required to achieve a PND of less than 2e-5
+ - interpolate_curves.m interpolates the crack-versus-cycles graphs extracted from NASGRO
+ - loglik_3par_norm_runouts.m calculates the log-likelihood function for the S-N curve
+ - prob_assessment.m performs a probabilistic top-of-the-scatter assessment
+ - prob_damage_tol.m performs the probabilistic damage-tolerance analysis for a probability of exceedance of 2e-5
+ - write_SF_files.m writes the NASGRO files required for the deterministic damage-tolerance analysis
+- Fatigue Data contains the Excel files for the S-N curve
 - Mission Profiles contains the mean and alternating stress data for each mission profile
-- Monte Carlo contains the crack vs cycles given different initial crack lengths. Used to interpolate the data using interpolate_curves.
+- Monte Carlo contains the crack-versus-cycles data for different initial crack lengths, used for interpolation via interpolate_curves
 - NAGRO contains the NASGRO results for Task 2
-- PDF contains all the pdfs used for bibliography, the tasks etc.
-- POD curves contains the probability for detection data for each inspection tool
-- Results contains the .png of all results
-- SF_NASGRO contains the NASGRO files to be ran for Task 2
-- TP_400_Nikolaos_Rigatos.pdf and TP_400_Nikolaos_Rigatos.pptx are the short presentation of the project.
+- PDF contains all PDFs used for bibliography, tasks, and references
+- POD Curves contains the probability-of-detection data for each inspection tool
+- Results contains the .png files of all results
+- SF_NASGRO contains the NASGRO input files for Task 2
+- TP_400_Nikolaos_Rigatos.pdf and TP_400_Nikolaos_Rigatos.pptx are the short presentations of the project
